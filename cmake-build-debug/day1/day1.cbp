@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\day1\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1"/>
+				<Option working_dir="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stl">
-				<Option output="D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/stl.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1"/>
+				<Option output="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/stl.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="D:/program files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 stl"/>
-					<CompileFile command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 stl"/>
+					<CompileFile command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="stl/fast">
-				<Option output="D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/stl.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1"/>
+				<Option output="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/stl.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="D:/program files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 stl/fast"/>
-					<CompileFile command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 stl/fast"/>
+					<CompileFile command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hello">
-				<Option output="D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/hello.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1"/>
+				<Option output="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/hello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -74,15 +74,15 @@
 					<Add directory="D:/program files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 hello"/>
-					<CompileFile command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 hello"/>
+					<CompileFile command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="hello/fast">
-				<Option output="D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/hello.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1"/>
+				<Option output="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/hello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -95,23 +95,23 @@
 					<Add directory="D:/program files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 hello/fast"/>
-					<CompileFile command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 hello/fast"/>
+					<CompileFile command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program files/mingw64/bin/mingw32-make.exe -f &quot;D:/Myprogram Data/codeWorkSpace/clion/acmtest1/cmake-build-debug/day1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Myprogram Data/codeWorkSpace/clion/acmtest/day1/hello.c">
+		<Unit filename="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/day1/hello.c">
 			<Option target="hello"/>
 		</Unit>
-		<Unit filename="D:/Myprogram Data/codeWorkSpace/clion/acmtest/day1/stl.cpp">
+		<Unit filename="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/day1/stl.cpp">
 			<Option target="stl"/>
 		</Unit>
-		<Unit filename="D:/Myprogram Data/codeWorkSpace/clion/acmtest/CMakeLists.txt">
+		<Unit filename="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="D:/Myprogram Data/codeWorkSpace/clion/acmtest/day1/CMakeLists.txt">
+		<Unit filename="D:/Myprogram Data/codeWorkSpace/clion/acmtest1/day1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\day1\"/>
 		</Unit>
 	</Project>

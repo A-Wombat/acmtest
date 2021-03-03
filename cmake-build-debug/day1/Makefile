@@ -67,10 +67,10 @@ RM = "D:\program files\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Myprogram Data\codeWorkSpace\clion\acmtest"
+CMAKE_SOURCE_DIR = "D:\Myprogram Data\codeWorkSpace\clion\acmtest1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug\CMakeFiles" "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug\day1\CMakeFiles\progress.marks"
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug\CMakeFiles" 0
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug\CMakeFiles" "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug\day1\CMakeFiles\progress.marks"
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/clean
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/preinstall
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/preinstall
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 day1/CMakeFiles/stl.dir/rule:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/CMakeFiles/stl.dir/rule
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/CMakeFiles/stl.dir/rule
 .PHONY : day1/CMakeFiles/stl.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ stl: day1/CMakeFiles/stl.dir/rule
 
 # fast build rule for target.
 stl/fast:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\stl.dir\build.make day1/CMakeFiles/stl.dir/build
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\stl.dir\build.make day1/CMakeFiles/stl.dir/build
 .PHONY : stl/fast
 
 # Convenience name for target.
 day1/CMakeFiles/hello.dir/rule:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/CMakeFiles/hello.dir/rule
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 day1/CMakeFiles/hello.dir/rule
 .PHONY : day1/CMakeFiles/hello.dir/rule
 
 # Convenience name for target.
@@ -156,7 +156,7 @@ hello: day1/CMakeFiles/hello.dir/rule
 
 # fast build rule for target.
 hello/fast:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\hello.dir\build.make day1/CMakeFiles/hello.dir/build
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\hello.dir\build.make day1/CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
 hello.obj: hello.c.obj
@@ -165,7 +165,7 @@ hello.obj: hello.c.obj
 
 # target to build an object file
 hello.c.obj:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\hello.dir\build.make day1/CMakeFiles/hello.dir/hello.c.obj
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\hello.dir\build.make day1/CMakeFiles/hello.dir/hello.c.obj
 .PHONY : hello.c.obj
 
 hello.i: hello.c.i
@@ -174,7 +174,7 @@ hello.i: hello.c.i
 
 # target to preprocess a source file
 hello.c.i:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\hello.dir\build.make day1/CMakeFiles/hello.dir/hello.c.i
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\hello.dir\build.make day1/CMakeFiles/hello.dir/hello.c.i
 .PHONY : hello.c.i
 
 hello.s: hello.c.s
@@ -183,7 +183,7 @@ hello.s: hello.c.s
 
 # target to generate assembly for a file
 hello.c.s:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\hello.dir\build.make day1/CMakeFiles/hello.dir/hello.c.s
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\hello.dir\build.make day1/CMakeFiles/hello.dir/hello.c.s
 .PHONY : hello.c.s
 
 stl.obj: stl.cpp.obj
@@ -192,7 +192,7 @@ stl.obj: stl.cpp.obj
 
 # target to build an object file
 stl.cpp.obj:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\stl.dir\build.make day1/CMakeFiles/stl.dir/stl.cpp.obj
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\stl.dir\build.make day1/CMakeFiles/stl.dir/stl.cpp.obj
 .PHONY : stl.cpp.obj
 
 stl.i: stl.cpp.i
@@ -201,7 +201,7 @@ stl.i: stl.cpp.i
 
 # target to preprocess a source file
 stl.cpp.i:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\stl.dir\build.make day1/CMakeFiles/stl.dir/stl.cpp.i
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\stl.dir\build.make day1/CMakeFiles/stl.dir/stl.cpp.i
 .PHONY : stl.cpp.i
 
 stl.s: stl.cpp.s
@@ -210,7 +210,7 @@ stl.s: stl.cpp.s
 
 # target to generate assembly for a file
 stl.cpp.s:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\stl.dir\build.make day1/CMakeFiles/stl.dir/stl.cpp.s
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(MAKE) $(MAKESILENT) -f day1\CMakeFiles\stl.dir\build.make day1/CMakeFiles/stl.dir/stl.cpp.s
 .PHONY : stl.cpp.s
 
 # Help Target
@@ -240,6 +240,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d "D:\Myprogram Data\codeWorkSpace\clion\acmtest1\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

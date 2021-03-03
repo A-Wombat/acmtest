@@ -1,4 +1,4 @@
-# Install script for directory: D:/Myprogram Data/codeWorkSpace/clion/acmtest/day1
+# Install script for directory: D:/Myprogram Data/codeWorkSpace/clion/acmtest1/day1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
