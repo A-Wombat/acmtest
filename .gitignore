@@ -1,4 +1,1 @@
-txt
-make
-obj
-exe
+cmake-build-debug

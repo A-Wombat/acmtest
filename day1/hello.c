@@ -24,5 +24,4 @@ int main(){
     stop=clock();
     duration = ((double)(stop-start))/CLK_TCK;
     printf("%lf",duration);
-    return 0;
 }
